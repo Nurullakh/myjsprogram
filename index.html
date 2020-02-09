@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header>
+		<nav>
+			<ul class="nav-ul">
+				<li><a href="#">about us</a></li>
+				<li><a href="#">tarif</a></li>
+				<li><a href="#">posibility</a></li>
+				<li><a href="#">contacs</a></li>
+				<li><a href="#">map</a></li>
+			</ul>
+		</nav>
+		<div class="slider">
+			<img class="slider-prev" src="https://img.icons8.com/nolan/64/left-squared--v1.png">
+			<img class="slider-img" src="img/beachone.jpg" alt="">
+			<img class="slider-next" src="https://img.icons8.com/nolan/64/right-squared--v1.png">
+		</div>
+	</header>
+	<section>
+		<h2  class=heading>поймай крота</h2>
+
+		<div class="game">
+			<div class="game-one">
+				<div class="game-grid game-grid-one" data='0'></div>
+				<div class="game-grid game-grid-two" data='1'></div>
+				<div class="game-grid game-grid-three" data='2'></div>
+			</div>
+			<div class="game-two">
+				<div class="game-grid game-grid-four" data='3'></div>
+				<div class="game-grid game-grid-five" data='4'></div>
+				<div class="game-grid game-grid-six" data='5'></div>
+			</div>
+			<div class="game-three">
+				<div class="game-grid game-grid-seven" data='6'></div>
+				<div class="game-grid game-grid-eight" data='7'></div>
+				<div class="game-grid game-grid-nine" data='8'></div>
+			</div>
+			<div class="game-start">
+				<button class="game-btn">начать игру</button>	
+				<div class="game-score">Крот был пойман 0 раз</div>
+			</div>	
+				
+		</div>
+	</section>
+		<h2 class=heading>крестики нолики</h2>
+		<div class="game">
+			<div class="game-one">
+				<div class="game-grid battle-grid" data='0'></div>
+				<div class="game-grid battle-grid" data='1'></div>
+				<div class="game-grid battle-grid" data='2'></div>
+			</div>
+			<div class="game-two">
+				<div class="game-grid battle-grid" data='3'></div>
+				<div class="game-grid battle-grid" data='4'></div>
+				<div class="game-grid battle-grid" data='5'></div>
+			</div>
+			<div class="game-three">
+				<div class="game-grid battle-grid" data='6'></div>
+				<div class="game-grid battle-grid" data='7'></div>
+				<div class="game-grid battle-grid" data='8'></div>
+			</div>
+			<div class="game-start">
+				<button class="game-btn battle-btn">новая игра</button>	
+				<div class="game-score battle-text">Результат - </div>
+			</div>	
+				
+		</div>
+	<section>
+		<div class="post">
+			<h2 class="heading post-heading"></h2>
+			<div class="post-text"></div>
+		</div>
+			
+	</section>
+	<section>
+		<div class="menu">
+			<img class='menu-img' src="https://img.icons8.com/android/24/000000/menu.png">
+			<div class="menu-block">
+				<ul class="menu-list">
+					<li><a class="menu-exit">X</a></li>
+					<li><a>about us</a></li>
+					<li><a>tarif</a></li>
+					<li><a>posibility</a></li>
+					<li><a>contacs</a></li>
+					<li><a>map</a></li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	<section>
+		<div class="calculator">
+			<input  class='calculator-input calculator-input-one' type="number" placeholder='Введите число'>
+			<div class="calculator-img">
+				<img class='calculator-plus' src="https://icon-icons.com/icons2/936/PNG/128/plus-black-symbol_icon-icons.com_73453.png" alt="">
+				<img class='calculator-minus' src="https://icon-icons.com/icons2/950/PNG/128/minus-gross-horizontal-straight-line-symbol_icon-icons.com_74137.png" alt="">
+				<img class='calculator-time' src="https://icon-icons.com/icons2/1144/PNG/128/multiplicationsign_80855.png" alt="">
+				<img class='calculator-divide' src="https://icon-icons.com/icons2/562/PNG/128/divide-symbol_icon-icons.com_54015.png" alt="">
+			</div>
+			<input class='calculator-input calculator-input-two' type="text" placeholder='Введите число'>
+			<div class="calculator-end">
+				<img class="calculator-remove" src="https://icon-icons.com/icons2/512/PNG/128/prog-c_icon-icons.com_50805.png" alt="">
+				<p class="calculator-answer"></p>
+			</div>
+		</div>
+	</section>
+	
+	<script src='js/slider.js'></script>
+	<script src='js/game.js'></script>
+	<script src='js/battle.js'></script>
+	<script src='js/calculator.js'></script>
+	<script src='js/main.js'></script>
+</body>
+</html>

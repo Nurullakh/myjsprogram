@@ -1,0 +1,246 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+nav {
+	background: #62E200;
+}
+
+.nav-ul  {
+	display: flex;
+	height: 60px;
+	padding-left: 100px; 
+}
+
+.nav-ul li  {
+	list-style: none;
+	padding-top: 20px;
+}
+
+.nav-ul a:hover {
+	background: #E50042;
+	color: #fff;
+	padding: 23px 20px;
+}
+
+.nav-ul a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #fff;
+	padding: 20px 20px;
+
+}
+
+.slider {
+	background: #dcdce0;
+	display: flex;
+	justify-content: center;
+}
+
+.slider-img {
+	height: 680px;
+	width: 1000px;
+}
+
+.slider-prev {
+	margin: 25% 40px 0 0;
+	height: 35px
+}
+
+.slider-prev:hover {
+	background: rgba(0,0,0, .10);
+}
+
+.slider-next {
+	margin: 25% 0 0 40px;
+	height: 35px
+}
+
+.slider-next:hover {
+	background: rgba(0,0,0, .10);
+}
+
+.heading {
+	font-size: 50px;
+	margin: 60px 0 50px 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+
+.game-grid {
+	height: 200px;
+	width: 200px;
+}
+
+.game-one {
+	display: flex;
+	justify-content: center;
+}
+.game-two {
+	display: flex;
+	justify-content: center;
+}
+.game-three {
+	display: flex;
+	justify-content: center;
+}
+
+.game-grid-one {
+	float: left;
+	background: url(../img/beachthree.jpg) no-repeat;
+	
+}
+.game-grid-two {
+	background: url(../img/beachthree.jpg) no-repeat;
+}
+.game-grid-three {
+	background: url(../img/beachthree.jpg) no-repeat;
+}
+.game-grid-four {
+	background: url(../img/beachthree.jpg) no-repeat;
+}
+.game-grid-five {
+	background: url(../img/beachthree.jpg) no-repeat;
+}
+.game-grid-six {
+	background: url(../img/beachthree.jpg) no-repeat;
+}
+.game-grid-seven {
+	background: url(../img/beachthree.jpg) no-repeat;
+}
+.game-grid-eight {
+	background: url(../img/beachthree.jpg) no-repeat;
+}
+.game-grid-nine {
+	background: url(../img/beachthree.jpg) no-repeat;
+}
+
+.game-crot {
+	background: url(../img/crot.jpg) no-repeat;
+}
+
+.game-start {
+	display: flex;
+	margin-top: 30px;
+}
+
+.game-btn {
+	padding: 15px 25px;
+	background: #123EAB;
+	border: 2px solid #123EAB;
+	border-radius: 10px;
+	text-transform: uppercase;
+	color: #fff;
+	margin-left: 340px;
+}
+
+.game-score {
+	font-size: 35px;
+	text-transform: uppercase;
+	margin-top: 5px;
+	margin-left: 40px;
+
+}
+
+.battle-grid {
+	border: 2px solid #000;
+}
+
+.battle-grid {	
+}
+
+.battle-cross {
+	color: #fff;
+	border: 2px solid #000;
+	background: url(../img/cross.png) no-repeat;
+}
+
+.battle-zero {
+	border: 2px solid #000;
+	color: #fff;
+	background: url(../img/zero.png) no-repeat;
+}
+
+.post-text {
+	font-size: 25px;
+	width: 900px;
+	border: 2px solid blue;
+	margin: 0 auto;
+}
+
+.menu {
+	margin-top: 40px;
+}
+
+.menu-img {
+	display: block;
+	margin: 0 auto;
+}
+
+.menu-div {
+	height: 600px;
+	background: red;
+}
+
+.menu-block {
+	background: black;
+	display: none;
+	width: 600px;
+	margin: 0 auto;
+}
+
+.menu-list {
+	list-style: none;
+	text-align: center;
+}
+
+.menu-list li {
+	padding: 10px;
+}
+
+.menu-list a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #fff;
+	padding: 10px;
+
+}
+
+.menu-list a:hover {
+	background: #fff;
+	color: black;
+	padding: 10px;
+	transition: all 0.5s ease-in;
+}
+
+.menu-exit {
+	border: 1px solid #fff;
+	border-radius: 100%;
+	padding: 10px;
+}
+
+.calculator {
+	margin-top: 60px;
+}
+
+.calculator-input {
+	width: 525px;
+	height: 50px;
+	font-size: 30px;
+	border-radius: 8px;
+	display: block;
+
+}
+
+.calculator-end {
+	display: flex;
+}
+
+.calculator-answer {
+	font-size: 50px;
+	font-weight: bold;
+	padding: 25px;
+	text-transform: uppercase;
+}
